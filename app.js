@@ -10,7 +10,7 @@ const bodyParser = require('body-parser');
 const exphbs  = require('express-handlebars');
 
 const routes = require('./routes/index');
-const users = require('./routes/thermo');
+const thermo = require('./routes/thermo');
 
 const app = express();
 
